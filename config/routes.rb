@@ -10,6 +10,7 @@ SuckerPunched::Application.routes.draw do
   get "home/index"
     resources :posts
     resources :categories
+    
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
