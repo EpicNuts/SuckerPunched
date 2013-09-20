@@ -1,4 +1,10 @@
 SuckerPunched::Application.routes.draw do
+  get "pages/about"
+
+  get "pages/contact"
+
+  get "pages/resources"
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   
   resources :categories
@@ -13,9 +19,13 @@ SuckerPunched::Application.routes.draw do
   get "categories/show"
 
   get "home/index"
-    resources :posts
-    resources :categories
-    
+
+  resources :posts
+
+  match '/about', :to => 'pages#about'
+  match '/contact', :to => 'pages#contact'
+  match '/resources', :to => 'pages#resources'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
