@@ -30,7 +30,7 @@ h1, h2, h3 {
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
-	font-family: 'Abel', sans-serif;
+	font-family: 'Comic Sans MS', sans-serif;
 	font-weight: normal;
 	color: #2B2522;
 }
@@ -40,6 +40,10 @@ h1 {
 }
 
 h2 {
+	font-size: 2.2em;
+}
+
+h2:hover {
 	font-size: 2.8em;
 }
 
@@ -56,7 +60,7 @@ ul, ol {
 }
 
 a {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #D93544;
 }
 
@@ -87,7 +91,7 @@ a:hover {
 
 #logo {
 	float: left;
-	width: 350px;
+	width: 450px;
 	margin: 0;
 	padding: 0;
 	color: #000000;
@@ -99,10 +103,10 @@ a:hover {
 #logo h1 {
 	margin-left: 30px;
 	padding: 20px 0px 0px 0px;
-	letter-spacing: -1px;
-	text-transform: uppercase;
-	font-family: 'Abel', sans-serif;
-	font-size: 3.3em;
+	letter-spacing: -2px;
+	/*text-transform: uppercase;*/
+	font-family: 'Comic Sans MS', sans-serif;
+	font-size: 3.6em;
 	font-weight: bold;
 	color: #D43442;
 }
@@ -173,7 +177,7 @@ a:hover {
 
 #menu {
 	float: right;
-	height: 92px;
+	height: 50px;
 	margin-top: 20;
 	padding: 0;
 	background: #D43542;
@@ -193,8 +197,8 @@ a:hover {
 
 #menu a {
 	display: block;
-	height: 80px;
-	padding: 36px 25px 0px 25px;
+	height: 40px;
+	padding: 10px 25px 10px 25px;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
@@ -208,6 +212,7 @@ a:hover {
 #menu a:hover, #menu .current_page_item a {
 	background: #A32833;
 	text-decoration: none;
+	padding: 15px 25px 10px 25px;
 }
 
 #menu .current_page_item a {
@@ -234,7 +239,7 @@ a:hover {
 
 .post,.post_full,.page {
 	margin-bottom: 30px;
-	padding: 30px 20px 1px 20px;
+	padding: 10px 20px 1px 20px;
 	background: #C0C0C0 url(images/page-gradient-bg.png) repeat-x left bottom;
 	box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 1);
 	/*outline: 1px dashed #D4D4D4;
@@ -263,7 +268,7 @@ a:hover {
 .post .byline {
 	clear: both;
 	overflow: hidden;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .post .meta {
@@ -414,3 +419,5 @@ a:hover {
 }
 
 form label{width:110px;display:inline-block;}
+
+/* 
