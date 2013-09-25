@@ -1,8 +1,9 @@
 class PostsController < ApplicationController
 	def index
+		@search = Post.search(params[:search])
 		#@content_first = 'This is some sample text for the SuckerPunched Webapp';
 		#@content_second = 'This is some more sample text';
-		@posts = Post.all
+		@posts = @search.all
 	end
 
 	def new

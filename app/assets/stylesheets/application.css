@@ -142,6 +142,10 @@ a:hover {
 	padding: 20px 0px 0px 0px;
 }
 
+#search input[type="text"] {
+	width: 180px;
+}
+
 #search form {
 	height: 41px;
 	margin: 0;
@@ -213,6 +217,7 @@ a:hover {
 	background: #A32833;
 	text-decoration: none;
 	padding: 15px 25px 10px 25px;
+	font-family: 'Comic Sans MS', sans-serif;
 }
 
 #menu .current_page_item a {
@@ -247,6 +252,13 @@ a:hover {
 }
 
 .post .title,.page .title {
+	height: 41px;
+	padding: 0px 0px 0px 0px;
+	letter-spacing: -1px;
+	font-family: 'Abel', sans-serif;
+}
+
+.post .title:hover,.page .title:hover {
 	height: 41px;
 	padding: 0px 0px 0px 0px;
 	letter-spacing: -1px;
@@ -367,10 +379,11 @@ a:hover {
 #sidebar a {
 	border: none;
 	color: #847F7E;
+	font-family: 'Comic Sans MS', sans-serif;
 }
 
 #sidebar a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #847F7E;
 }
 

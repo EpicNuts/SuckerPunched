@@ -1,4 +1,5 @@
 class Post < ActiveRecord::Base
-  attr_accessible :title, :body, :author_id, :category_id
+  attr_accessible :title, :body, :admin_user_id, :category_id
   belongs_to :category
+  belongs_to :admin_user
 end
