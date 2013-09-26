@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
 
   def site_search
   	@search = Post.search(params[:search])
-	@search_posts = @search.all
+    @search_posts = @search.all
   end
 end
 
