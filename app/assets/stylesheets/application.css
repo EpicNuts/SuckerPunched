@@ -129,7 +129,7 @@ a:hover {
 #logo a {
 	border: none;
 	background: none;
-	text-decoration: none;
+	text-decoration: underline;
 	color: #707070;
 }
 
