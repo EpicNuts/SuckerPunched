@@ -89,7 +89,10 @@ a:hover {
 /* Logo */
 
 #logo {
-	float: left;
+	background-image:url(https://dl.dropboxusercontent.com/u/5243670/Splatter3.png);
+    background-position:left;
+    float: left;
+    height: 120px;
 	width: 450px;
 	margin: 0;
 	padding: 0;
