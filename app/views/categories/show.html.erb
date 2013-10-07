@@ -4,11 +4,8 @@
 	<div class="entry"><%= truncate post.body, length: 160 %></div>
 	<div class="byline">
 		<p class="meta">May 07, 2012 Posted by <%= post.admin_user.name %></p>
-<<<<<<< HEAD
+
 		<p class="links"><%= link_to "Read More",post %></a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" title="Comments">Comments</a></p>
-=======
-		<p class="links"><a href="post.html">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" title="b0x w">Comments</a></p>
->>>>>>> 5fc32a3bdae66a586abba55624c708aebab1af33
 	</div>
 </div>
 <% end.empty? %>
