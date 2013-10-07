@@ -1,11 +1,16 @@
 <div class='post'>
-	<h1>A big, steaming Pile of Categories</h1>
-<ul>
-<% @categories.each do |category| %>
-
-<li><%= link_to category.name,category %></li>
-
-<% end %>
-</ul>
+	<h1>A Steaming Pile of Categories</h1>
+	<div class='div_common'>
+		<%= link_to 'Game Reviews','/category/1' %>
+	</div>
+	<div class='div_common'>
+		<%= link_to 'Videos','/category/2' %>
+	</div>
+	<div class='div_common'>
+		<%= link_to 'News','/category/3' %>
+	</div>
+	<div class='div_common'>
+		<%= link_to '3D Modelling','/category/4' %>
+	</div>
 </div>
 

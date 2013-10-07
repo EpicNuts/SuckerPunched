@@ -1,5 +1,6 @@
 <div class="post_comment">
-	<i><%= image_tag post_comment.gravatar_url %><%=h post_comment.name %> says:</i><br />
-	<%= simple_format h(post_comment.body) %>
-	
+	<div><%= image_tag post_comment.gravatar_url %>
+		<%=h post_comment.name %><i> says:</i><br />
+		<%= simple_format h(post_comment.body) %>
+	</div>
 </div>

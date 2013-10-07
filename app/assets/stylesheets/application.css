@@ -95,7 +95,7 @@ a:hover {
     height: 120px;
 	width: 450px;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 12px;
 	color: #000000;
 }
 
@@ -247,6 +247,14 @@ a:hover {
 	width: 600px;
 	padding: 40px 0px 0px 0px;
 }
+
+.div_common {  
+ display: inline-block;  
+ height: 200px;  
+ width: 250px;  
+ border-radius: 6px;  
+ margin: 10px 10px 10px 10px;  
+}  
 
 .post,.post_full,.page {
 	margin-bottom: 30px;
