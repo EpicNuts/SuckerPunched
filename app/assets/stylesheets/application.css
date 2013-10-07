@@ -95,11 +95,7 @@ a:hover {
     height: 120px;
 	width: 450px;
 	margin: 0;
-<<<<<<< HEAD
-	padding: 0 0 12px;
-=======
 	padding: 0;
->>>>>>> 5fc32a3bdae66a586abba55624c708aebab1af33
 	color: #000000;
 }
 
@@ -252,7 +248,6 @@ a:hover {
 	padding: 40px 0px 0px 0px;
 }
 
-<<<<<<< HEAD
 .div_common {  
  display: inline-block;  
  height: 200px;  
@@ -261,8 +256,6 @@ a:hover {
  margin: 10px 10px 10px 10px;  
 }  
 
-=======
->>>>>>> 5fc32a3bdae66a586abba55624c708aebab1af33
 .post,.post_full,.page {
 	margin-bottom: 30px;
 	padding: 10px 20px 1px 20px;
