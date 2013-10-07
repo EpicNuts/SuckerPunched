@@ -89,7 +89,7 @@ a:hover {
 /* Logo */
 
 #logo {
-	background-image:url(https://dl.dropboxusercontent.com/u/5243670/Splatter3.png);
+	background-image:url(https://dl.dropboxusercontent.com/u/5243670/BloodSpatter3.png);
     background-position:left;
     float: left;
     height: 120px;
@@ -114,7 +114,8 @@ a:hover {
 }
 
 #logo h1 a {
-	color: #D43442;
+	text-shadow:0 0 8px #FFFFFF;
+	color: #000000;
 }
 
 #logo h1 span {
@@ -141,7 +142,9 @@ a:hover {
 	float: right;
 	width: 280px;
 	height: 60px;
-	padding: 20px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
+	/*background-image:url(https://dl.dropboxusercontent.com/u/5243670/Splatter3.png);*/
+
 }
 
 #search input[type="text"] {
@@ -186,7 +189,7 @@ a:hover {
 	height: 50px;
 	margin-top: 20;
 	padding: 0;
-	background: #D43542;
+	/*background: #D43542;*/
 }
 
 #menu ul {
@@ -198,7 +201,7 @@ a:hover {
 
 #menu li {
 	float: left;
-	border-left: 1px solid #000000;
+	/*border-left: 1px solid #000000;*/
 }
 
 #menu a {
@@ -216,10 +219,11 @@ a:hover {
 }
 
 #menu a:hover, #menu .current_page_item a {
-	background: #A32833;
+	/*background: #A32833;*/
 	text-decoration: none;
-	padding: 15px 25px 10px 25px;
+	padding: 10px 25px 100px 25px;
 	font-family: 'Comic Sans MS', sans-serif;
+	background-image: url(https://dl.dropboxusercontent.com/u/5243670/Splatter3.png);
 }
 
 #menu .current_page_item a {
@@ -318,7 +322,7 @@ a:hover {
 	float: left;
 	width: 300px;
 	margin: 0px;
-	padding: 20px 20px 0px 0px;
+	padding: 0px 20px 0px 0px;
 }
 
 #sidebar ul {
