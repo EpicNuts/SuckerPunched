@@ -1,0 +1,26 @@
+<%= render "partials/header" %>
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<div id="content">
+				<div class="flash-message">
+					<% flash.each do |key, value| %>
+					<p><%= value %></p>
+					<% end %>
+				</div>
+				<%= yield %> <!--main View-->
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+				<%= render "partials/sidebar" %>
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page -->
+	<div id="footer">
+		<p>&copy; 2013, SuckerPunched - Gaming Blog</p>
+	</div>
+</div>
+</body>
+</html>

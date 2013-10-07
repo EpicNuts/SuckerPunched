@@ -1,0 +1,39 @@
+<div id="sidebar">
+					<ul>
+						<li>
+							<div id="search" >
+								<%= form_for @search do |f| %>
+								<%= f.text_field :title_or_body_contains %>
+								<%= f.submit "Search" %>
+								<% end %>								
+							</div>
+							<div style="clear: both;">&nbsp;</div>
+						</li>
+						<li>
+							<h2 style="padding: 10px 0px 40px 20px;">Berlin Underground Adventures!</h2>
+							<p>Check out me and some mates exploring the depths of Berlin and it's surrounding area's history - Bunker Exploration - Maps Included!
+                                                            <br />
+                                                            <a style="color:#D93544;" href="https://www.google.com/maps/ms?msid=217838434980793930069.0004dc9966acab2ace4d2&msa=0" target="blank">CHECK OUT MAP</a>
+                                                        </p>
+						</li>
+						<li>
+							<h2>Categories</h2>
+							<ul>
+								<% all_categories.each do |cat| %>
+									<li><%= link_to cat.name,category_path(:id => cat.id) %></li>
+								<% end %>
+					
+							</ul>
+						</li>
+						<li>
+							<h2>Blogroll</h2>
+							<ul>
+								<% all_posts.each do |post| %>
+									<li><%= link_to post.title,post_path(:id => post.id) %></li>
+								<% end %>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				<!-- end #sidebar -->
