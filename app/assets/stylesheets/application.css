@@ -254,12 +254,18 @@ a:hover {
 }
 
 .div_common {  
- display: inline-block;  
- height: 200px;  
- width: 250px;  
- border-radius: 6px;  
- margin: 10px 10px 10px 10px;  
+ 	display: inline-block;  
+ 	height: 200px;  
+ 	width: 250px;  
+ 	border-radius: 6px;  
+ 	margin: 10px 10px 10px 10px;  
+ 	background: #000000;
+ 	box-shadow: inset 1px 1px 1px 1px rgba(255, 255, 255, 1);
 }  
+
+.boxes {
+	text-align: center;
+}
 
 .post,.post_full,.page {
 	margin-bottom: 30px;
