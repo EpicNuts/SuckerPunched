@@ -86,6 +86,11 @@ a:hover {
 	padding: 0px 0px 0px 0px;
 }
 
+#StackOverflow {
+	margin-left: 800px;
+	padding-top: 20px;
+}
+
 /* Logo */
 
 #logo {
@@ -221,7 +226,7 @@ a:hover {
 #menu a:hover, #menu .current_page_item a {
 	/*background: #A32833;*/
 	text-decoration: none;
-	padding: 10px 25px 100px 25px;
+	padding: 10px 15px 100px 25px;
 	font-family: 'Comic Sans MS', sans-serif;
 	background-image: url(https://dl.dropboxusercontent.com/u/5243670/Splatter3.png);
 }
