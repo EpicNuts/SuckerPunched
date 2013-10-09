@@ -5,11 +5,6 @@ class PostsController < ApplicationController
 		#@content_second = 'This is some more sample text';
 		@posts = @search.all
 
-		respond_to do |format|
-      		format.html # index.html.erb
-      		format.json { render json: @posts }
-      		format.atom
-    	end
 	end
 
 	def new
@@ -43,11 +38,6 @@ class PostsController < ApplicationController
 		@post = Post.find(params[:id])
 		@user = AdminUser.all
 		@post_comment = PostComment.new(:post => @post)
-
-		respond_to do |format|
-			format.html
-			format.json { render json: @post }
-		end
 
 	end
 			
