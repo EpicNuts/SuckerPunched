@@ -4,6 +4,12 @@ class PostsController < ApplicationController
 		#@content_first = 'This is some sample text for the SuckerPunched Webapp';
 		#@content_second = 'This is some more sample text';
 		@posts = @search.all
+
+		respond_to do |format|
+      		format.html # index.html.erb
+      		format.json { render json: @posts }
+      		format.atom
+    	end
 	end
 
 	def new
@@ -37,11 +43,17 @@ class PostsController < ApplicationController
 		@post = Post.find(params[:id])
 		@user = AdminUser.all
 		@post_comment = PostComment.new(:post => @post)
+
+		respond_to do |format|
+			format.html
+			format.json { render json: @post }
+		end
+
 	end
 			
 	def destroy
 		@post = Post.find(params[:id])
 		@post.destroy
-		redirect_to posts_path, :notice => "Your Post will incinerated shortly."
+		redirect_to posts_path, :notice => "Your Post will be incinerated shortly."
 	end
 end

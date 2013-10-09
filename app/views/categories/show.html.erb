@@ -5,7 +5,7 @@
 	<div class="byline">
 		<p class="meta">May 07, 2012 Posted by <%= post.admin_user.name %></p>
 
-		<p class="links"><%= link_to "Read More",post %>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to "Comments",@post_comment.post %></p>
+		<p class="links"><%= link_to "Read More",post %>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to "Comments",post %></p>
 	</div>
 </div>
 <% end.empty? %>
