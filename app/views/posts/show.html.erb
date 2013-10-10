@@ -1,5 +1,6 @@
 <div class='post'>
-		<h1><%= @post.title %></h1>
+		<h1 id='wicked' style='text-align:center;'><span id='wicked2'></span><%= @post.title %></h1>
+		<br>
 <small><%= @post.created_at.strftime("%b %d. %Y") %></small>
 <p>Fabricated by: <%= @post.admin_user.name %></p>
 <p><%= @post.body.html_safe %></p>
