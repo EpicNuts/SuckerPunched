@@ -305,7 +305,7 @@ a:hover {
 .post .entryTruncate {
 	white-space: nowrap;
 	overflow: hidden;
-	text-overflow: ellipsis;
+	overflow: ellipsis;
 }
 
 .post .byline {
